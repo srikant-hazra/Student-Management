@@ -36,6 +36,6 @@ public class StudentDao {
 		return studentRepository.findByEmailAndPassword(email, password);
 	}
 
-
+	
 	
 }

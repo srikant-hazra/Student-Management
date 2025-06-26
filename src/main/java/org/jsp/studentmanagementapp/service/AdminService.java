@@ -31,7 +31,7 @@ public class AdminService {
 			dbStudent.getAdmins().add(admin);
 			admin.setStudent(dbStudent);
 			structure.setData(adminDao.save(admin));
-			structure.setMessage("Product added");
+			structure.setMessage("Admin added");
 			structure.setStatusCode(HttpStatus.CREATED.value());
 			return new ResponseEntity<ResponseStructure<Admin>>(structure, HttpStatus.CREATED);
 		}

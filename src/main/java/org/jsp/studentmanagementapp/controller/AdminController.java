@@ -47,7 +47,7 @@ public class AdminController {
 	public ResponseEntity<ResponseStructure<List<Admin>>> findAll() {
 		return adminService.findAll();
 	}
-	@DeleteMapping("/{id}")
+	@DeleteMapping("/{student_id}")
 	public ResponseEntity<ResponseStructure<String>> deleteAdmin(@PathVariable(name = "id") int id) {
 		return adminService.delete(id);
 	}
