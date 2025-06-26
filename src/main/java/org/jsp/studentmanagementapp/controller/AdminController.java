@@ -50,5 +50,13 @@ public class AdminController {
 	@DeleteMapping("/{student_id}")
 	public ResponseEntity<ResponseStructure<String>> deleteAdmin(@PathVariable(name = "id") int id) {
 		return adminService.delete(id);
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
