@@ -79,7 +79,7 @@ public class StudentService {
 			return new ResponseEntity<ResponseStructure<Student>>(structure, HttpStatus.OK);
 		}
 		structure.setData(null);
-		structure.setMessage("Studen Not Found");
+		structure.setMessage("Student Not Found");
 		structure.setStatusCode(HttpStatus.NOT_FOUND.value());
 		return new ResponseEntity<ResponseStructure<Student>>(structure, HttpStatus.NOT_FOUND);
 	}
