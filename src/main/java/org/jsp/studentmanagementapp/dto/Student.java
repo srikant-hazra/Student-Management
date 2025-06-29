@@ -70,6 +70,7 @@ public class Student {
 		this.email = email;
 	}
 
+	
 	public String getPassword() {
 		return password;
 	}
