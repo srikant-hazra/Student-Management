@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/students")
 public class StudentController {
+	
 	@Autowired
 	private StudentService studentService;
 

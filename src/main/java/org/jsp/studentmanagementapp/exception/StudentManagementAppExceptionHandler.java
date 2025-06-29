@@ -9,6 +9,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 @ControllerAdvice
 public class StudentManagementAppExceptionHandler extends ResponseEntityExceptionHandler {
+	
 
 	@ExceptionHandler(StudentNotFoundException.class)
 	public ResponseEntity<ResponseStructure<String>> handleUNFE(StudentNotFoundException exception) {

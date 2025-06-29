@@ -22,6 +22,7 @@ public class AdminService {
 	private AdminDao adminDao;
 	@Autowired
 	private StudentDao studentDao;
+	
 
 	public ResponseEntity<ResponseStructure<Admin>> saveAdmin(Admin admin, int student_id) {
 		Optional<Student> recStudent = studentDao.findById(student_id);
