@@ -67,6 +67,9 @@ public class Admin {
 	public void setStudent(Student student) {
 		this.student = student;
 	}
+	
+	
+	
 
 
 

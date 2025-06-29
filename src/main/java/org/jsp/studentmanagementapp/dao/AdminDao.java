@@ -33,4 +33,6 @@ public class AdminDao {
 	public List<Admin> findAll() {
 		return adminRepository.findAll();
 	}
+	
+	
 }
